@@ -12,13 +12,13 @@ function Footer() {
             <div className='d-flex flex-column flex-md-row'>
                 <Col className="text-center">
                     <h6>Телефон</h6>
-                    <a className="text-decoration-none" href="tel:+380 067 605 93 37">
+                    <a className="text-decoration-none" href="tel:+380067 605 93 37">
                         +380 067 605 93 37
                     </a><br/>
-                    <a className="text-decoration-none" href="tel:+380 067 605 93 37">
+                    <a className="text-decoration-none" href="tel:+380067 605 93 37">
                         +380 067 605 93 37
                     </a><br/>
-                    <a className="text-decoration-none" href="tel:+380 067 605 93 37">
+                    <a className="text-decoration-none" href="tel:+380067 605 93 37">
                         +380 067 605 93 37
                     </a>
                 </Col>
