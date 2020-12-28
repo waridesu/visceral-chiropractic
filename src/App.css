@@ -14,3 +14,11 @@
   width: 20px;
   height: 20px;
 }
+@media (min-width: 1024px) {
+  .main-carousel, .main-carousel img{
+    margin: auto;
+    max-width: 90%;
+    max-height: 50vh;
+    object-fit: fill;
+  }
+}

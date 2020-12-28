@@ -17,9 +17,6 @@ function Footer() {
                     </a><br/>
                     <a className="text-decoration-none" href="tel:+3800676059337">
                         +380 067 605 93 37
-                    </a><br/>
-                    <a className="text-decoration-none" href="tel:+3800676059337">
-                        +380 067 605 93 37
                     </a>
                 </Col>
                 <Col className="text-center">

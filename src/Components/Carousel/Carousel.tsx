@@ -10,10 +10,10 @@ import logo5 from './_4.jpg'
 
 function CarouselIntro() {
     return <Container className="mt-5">
-        <Carousel className="mt-3" controls={false}>
+        <Carousel className="mt-3 main-carousel" controls={false}>
             <Carousel.Item className={s.items} interval={3000}>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 h-vh-50"
                     src={logo1}
                     alt="First slide"
                 />
