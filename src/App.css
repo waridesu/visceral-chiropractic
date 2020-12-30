@@ -14,11 +14,55 @@
   width: 20px;
   height: 20px;
 }
+
 @media (min-width: 1024px) {
   .main-carousel, .main-carousel img{
     margin: auto;
     max-width: 90%;
     max-height: 50vh;
     object-fit: fill;
+  }
+}
+.about-content{
+  display: flex;
+  flex-direction: column;
+}
+.about-description{
+  width: 100%;
+  padding: 7%;
+  outline: 5px solid #f8f9fa;
+  background-color: #fff;
+  outline-offset: -5px;
+  order: 2;
+  margin-top: 5px;
+}
+.about-image{
+  order: 1;
+}
+
+.about-image img{
+  width: 100%;
+  height: auto;
+  max-height: 80vw;
+  object-fit: cover;
+  display: block;
+}
+@media (min-width: 768px){
+  .about-content{
+    position: relative;
+    display: block;
+  }
+  .about-description{
+    position: absolute;
+    top:75%;
+    transform: translateY(-50%);
+    width: 45%;
+    outline-offset: -10px;
+    padding: 30px;
+  }
+  .about-image img{
+    width: 60%;
+    margin-left: auto;
+  ;
   }
 }

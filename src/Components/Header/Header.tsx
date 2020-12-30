@@ -4,7 +4,10 @@ import {Navbar, Nav, NavDropdown, Button, Form, FormControl, Container} from "re
 function Header() {
     return <Navbar bg="light" expand="lg" fixed="top">
         <Container>
-        <Navbar.Brand href="#home">Кононученко Владимир</Navbar.Brand>
+            <Navbar.Brand href="#home">
+                Кононученко Владимир<br/>
+                Кинезиолог
+            </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
